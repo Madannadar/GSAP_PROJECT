@@ -49,7 +49,7 @@ const Art = () => {
             </ul>
         </div>
         <div className="masked-container">
-            <h2 className="will-fade">Spi-Worthy Perfection</h2>
+            {/* <h2 className="will-fade">Spi-Worthy Perfection</h2> */}
             <div id="masked-content">
                 <h3>Made with craft, Poured with Passion</h3>
                 <p>This isn't just a drink. It's a arefullly crafted moment made just for you.</p>
@@ -59,5 +59,5 @@ const Art = () => {
     </div>
   )
 }
-
+  
 export default Art
