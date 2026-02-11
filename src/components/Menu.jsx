@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react'
 import { allCocktails, cocktailLists } from '../../constants'
 
@@ -13,7 +14,6 @@ const Menu = () => {
         <nav className='cocktail-tabs' aria-label='Cocktail Navigation'>
             {allCocktails.map((cocktail, index) => {
                 const isActive = index === currentIndex;
-
                 return (
                     <button key={cocktail.id} className={`${isActive ? 'text-white border-white' : 'text-white/50 border-white/50'}`}>
                         {cocktail.name}
